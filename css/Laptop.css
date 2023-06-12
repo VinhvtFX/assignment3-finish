@@ -256,6 +256,11 @@
   }
   .project-type {
     padding: 10px;
+    text-align: center;
+    background-color: #f3f2a3;
+  }
+  .project-type:hover {
+    background-color: #f7f312;
   }
   .project-type > a {
     text-decoration: none;
