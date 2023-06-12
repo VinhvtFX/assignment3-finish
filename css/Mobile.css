@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+  .navbars {
+    display: block;
+    font-size: 10px;
+  }
+  .item {
+    padding: 5px;
+  }
+
+  /* THÔNG TIN CÁ NHÂN VÀ MỤC TIÊU NGHỀ NGHIỆP */
+  .personal {
+    display: block;
+    background-color: white;
+  }
+  .personal-target {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 5px;
+  }
+  .personal-information {
+    width: 100%;
+    background-color: #e3e3e3;
+    padding: 5px;
+  }
+  /* Ẩn phần thông tin cá nhân*/
+  .hide {
+    display: none;
+  }
+  /* PHẦN KINH NGHIỆM-HOẠT ĐỘNG */
+  .main {
+    display: grid;
+    width: 100%;
+    margin: 10px auto;
+    grid-template-columns: 100%;
+    row-gap: 1%;
+  }
+  .main > div {
+    border: 1px solid #e3e3e3;
+    padding: 1% 0.5%;
+  }
+  .main > div:nth-of-type(odd) {
+    margin-right: 0%;
+  }
+  .main > div:nth-child(2n) {
+    margin-left: 0%;
+  }
+  /* Ẩn các phần tử */
+  .hide-list {
+    display: none;
+  }
+
+  /* CÁC CHỨNG CHỈ */
+  .certificate-photo {
+    padding: 30px 30px;
+  }
+  .certificate {
+    margin-top: 120px;
+  }
+  .certificate-detail {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    align-items: center;
+  }
+  .three {
+    width: 100%;
+  }
+  .certificate-content {
+    padding: 0 30px;
+  }
+  h2.certificate-detail {
+    margin-bottom: -30px;
+    padding-left: 30px;
+  }
+  .cell2 {
+    border-left: none;
+  }
+  .underline {
+    border-top: 1px solid #ce816a;
+  }
+
+  /* CÁC DỰ ÁN */
+  .project {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+  .border-all {
+    margin: 15px 0px;
+  }
+}
